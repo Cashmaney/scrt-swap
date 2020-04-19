@@ -22,7 +22,7 @@ This repo contains the implementation for the [Multisig Setup Proposal](https://
     CHAIN_CLIENT=kamutcli BECH32_PREFIX=kamut ROLE=leader node ./server
     ```
    
-4. Start multiple operators
+4. Start operator
     ```
     # Set other environment variables in a .env file in the project root
     CHAIN_CLIENT=kamutcli BECH32_PREFIX=kamut ROLE=leader node ./server
