@@ -26,7 +26,7 @@ const broadcastInterval = process.env.BROADCAST_INTERVAL || 30000;
 const user = process.env.OPERATOR_USER;
 const fromAccount = process.env.FROM_ACCOUNT;
 const db_url = process.env.MONGO_URL || 'mongodb://localhost:27017';
-const db = new Db(db_url, 'enigma-swap');
+const db = new Db(db_url, 'kamut-swap');
 
 if (process.env.ROLE === 'operator' && !user) {
     throw new Error('OPERATOR_USER env variable required');
